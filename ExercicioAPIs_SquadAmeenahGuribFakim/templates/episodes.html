@@ -1,0 +1,33 @@
+{% extends 'layout.html' %} {% block content %}
+
+<style>
+  .top {
+    margin-top: 30px;
+  }
+  .card-body {
+    height: 230px;
+    overflow: auto;
+  }
+</style>
+
+<div class="container top">
+  <center><h1>Episodes List</h1></center>
+  <br />
+  <div class="row">
+    {% for episode in episodes %}
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">"{{episode.name}}"</h5>
+          <p class="card-text">Episode: {{episode.episode}}</p>
+          <p class="card-text">Air Date: {{episode.air_date}}</p>
+          <a href="/episode/{{episode.id}}" class="btn btn-primary"
+            >View Details</a
+          >
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

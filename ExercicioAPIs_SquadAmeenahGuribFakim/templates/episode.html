@@ -1,0 +1,52 @@
+{% extends 'layout.html' %} {% block content %}
+
+<style>
+  .top {
+    margin-top: 30px;
+  }
+</style>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-8 offset-md-2 top">
+      <center><h1 class="mb-4">Episode Details</h1></center>
+      {% if episode %}
+      <div class="card">
+        <div class="card-header">
+          <h5 class="my-0 font-weight-bold">"{{episode.name}}"</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">ID: {{episode.id}}</li>
+          <li class="list-group-item">Episode: {{episode.episode}}</li>
+          <li class="list-group-item">Air Date: {{episode.air_date}}</li>
+          <li class="list-group-item">
+            Characters in this episode:
+            <ul class="list-group" style="padding-left: 1rem; padding-top: 5px">
+              {% for character in characters %}
+              <li class="mb-1">
+                <a href="/profile/{{character.id}}" class="text-decoration-none"
+                  >{{character.name}}</a
+                >
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      </div>
+      {% else %}
+      <p>No episode found.</p>
+      {% endif %}
+      <br />
+      <p>
+        <a href="#" class="btn btn-primary" onclick="goBack()">Back</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  function goBack() {
+    window.history.back();
+  }
+</script>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'layout.html' %} {% block content %}
+
+<style>
+    .top {
+      margin-top: 30px;
+    }
+    .card-body {
+      height: 240px;
+      overflow: auto;
+    }
+  </style>
+  
+  <div class="container top">
+    <center><h1>Locations List</h1></center>
+
+<div class="container top">
+  {% if locations %}
+  <div class="row">
+    {% for location in locations %}
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">{{location.name}}</h5>
+          <p class="card-text">Type: {{location.type}}</p>
+          <p class="card-text">Dimension: {{location.dimension}}</p>
+            <a href="/location/{{location.id}}" class="btn btn-primary"
+              >View details</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p>No locations found.</p>
+  {% endif %}
+</div>
+{% endblock %}

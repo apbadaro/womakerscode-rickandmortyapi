@@ -1,0 +1,43 @@
+{% extends 'layout.html' %} {% block content %}
+<style>
+  .top {
+    margin-top: 30px;
+  }
+  .padding-top { padding:9px; }
+</style>
+
+<div class="top">
+  <center><h1>{{profile.name}}</h1></center>
+  <br />
+</div>
+
+<div class="row">
+  <div class="col-sm-3 col-6">
+    <img
+      src="{{profile.image}}"
+      alt="{{profile.name}}"
+      class="img-fluid img-thumbnail"
+    />
+  </div>
+  <div class="col-9 padding-top">
+    <p><strong>Name:</strong> {{profile.name}}</p>
+    <p><strong>Species:</strong> {{profile.species}}</p>
+    <p><strong>Status:</strong> {{profile.status}}</p>
+    <p><strong>Gender:</strong> {{profile.gender}}</p>
+    <p><strong>Origin:</strong> <a href="{{profile.origin.url}}" class="text-decoration-none">{{profile.origin.name}}</a></p>
+    <p><strong>Last known location:</strong> <a href="{{profile.location.url}}" class="text-decoration-none"
+      >{{profile.location.name}}</a></p>
+</div>
+</div>
+</div>
+<br>
+<p>
+  <a href="#" class="btn btn-primary" onclick="goBack()">Back</a>
+</p>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+{% endblock %}

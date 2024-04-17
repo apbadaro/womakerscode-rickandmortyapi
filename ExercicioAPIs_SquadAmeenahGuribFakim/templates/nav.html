@@ -1,0 +1,46 @@
+<style>
+  .navbar {
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+  }
+</style>
+<header>
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-light justify-content-center"
+  >
+    <a class="navbar-brand" href="/">The Rick and Morty API Project</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/lista">JSON Data</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/characters">Characters</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/episodes">Episodes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/locations">Locations</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

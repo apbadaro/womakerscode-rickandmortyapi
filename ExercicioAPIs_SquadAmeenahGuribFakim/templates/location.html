@@ -1,0 +1,55 @@
+{% extends 'layout.html' %} {% block content %}
+
+<style>
+  .top {
+    margin-top: 30px;
+  }
+</style>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-8 offset-md-2 top">
+      <center><h1 class="mb-4">Location Details</h1></center>
+      {% if location %}
+      <div class="card">
+        <div class="card-header">
+          <h5 class="my-0 font-weight-bold">{{location.name}}</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">ID: {{location.id}}</li>
+          <li class="list-group-item">Type: {{location.type}}</li>
+          <li class="list-group-item">Dimension: {{location.dimension}}</li>
+          <li class="list-group-item">
+            Residents:
+            <ul class="list-group" style="padding-left: 1rem; padding-top: 5px">
+              {% for resident in residents %}
+              <li class="mb-1">
+                <a href="/profile/{{resident.id}}" class="text-decoration-none"
+                  >{{resident.name}}</a
+                >
+              </li>
+              {% else %}
+              <li class="mb-1"><em>No residents in this location</em></li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      </div>
+      {% else %}
+      <p>No location found.</p>
+      {% endif %}
+      <br />
+      <p>
+        <a href="#" class="btn btn-primary" onclick="goBack()">Back</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  function goBack() {
+    window.history.back();
+  }
+</script>
+
+{% endblock %}
