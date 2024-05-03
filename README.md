@@ -1,11 +1,12 @@
+<p align="center"><img src="https://github.com/quasiEvil/ProjetoFinal_SquadAmeenahGuribFakim/assets/140989367/e2ae9bd9-13f2-4f70-ae46-9d3b8d77ab64)" height="auto">
+<br><br>
+<img src="https://github.com/quasiEvil/ProjetoFinal_SquadAmeenahGuribFakim/assets/140989367/bf85af97-f4d6-420b-85e2-b23827a9dbca" height="60"><img src="https://github.com/quasiEvil/ProjetoFinal_SquadAmeenahGuribFakim/assets/140989367/a5d109fc-beef-4ef7-b7aa-28c31d5eeb53" height="60">
+  
 # Consumo de API com Python e Flask
-
 *Responsáveis: [Ana Paula Badaró](https://github.com/quasiEvil) e [Juliana Torres Delunardo](https://github.com/jutdelu)*
-
 Este repositório contém o código desenvolvido pela Squad Ameenah Gurib-Fakim para o projeto de consumo de API da série "Rick and Morty".
 
 ## Rick and Morty API Flask App
-
 Este é um aplicativo desenvolvido em Python utilizando o framework Flask para consumir a [API](https://rickandmortyapi.com/) da série "Rick and Morty". O objetivo principal do projeto é fornecer uma interface simples para acessar informações sobre os personagens, as localizações e os episódios da série.
 
 ## Funcionalidades:
@@ -23,8 +24,7 @@ Cada episódio é mostrado com seu número, nome e data de lançamento.
 - **Navegação Intuitiva:** A interface do aplicativo é intuitiva, com navegação clara entre as diferentes seções: personagens, localizações e episódios.
 
 ## Divisão das tarefas
-
-Para a divisão das tarefas, eu desenvolvi um sorteador em Python.
+Para a divisão das tarefas, desenvolvi um sorteador em Python.
 
 ![sorteio.py](https://github.com/quasiEvil/womakerscode-rickandmortyapi/assets/140989367/3e5897ae-59b7-4760-9080-a507824eb23b)
 
