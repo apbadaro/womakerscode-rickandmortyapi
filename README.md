@@ -3,7 +3,7 @@
 <img src="https://github.com/quasiEvil/ProjetoFinal_SquadAmeenahGuribFakim/assets/140989367/bf85af97-f4d6-420b-85e2-b23827a9dbca" height="60"><img src="https://github.com/quasiEvil/ProjetoFinal_SquadAmeenahGuribFakim/assets/140989367/a5d109fc-beef-4ef7-b7aa-28c31d5eeb53" height="60">
   
 # Consumo de API com Python e Flask
-*Responsáveis: [Ana Paula Badaró](https://github.com/quasiEvil) e [Juliana Torres Delunardo](https://github.com/jutdelu)*
+*Responsáveis: [Ana Paula Badaró](https://github.com/apbadaro) e [Juliana Torres Delunardo](https://github.com/jutdelu)*
 Este repositório contém o código desenvolvido pela Squad Ameenah Gurib-Fakim para o projeto de consumo de API da série "Rick and Morty".
 
 ## Rick and Morty API Flask App
@@ -31,7 +31,7 @@ Para a divisão das tarefas, desenvolvi um sorteador em Python.
 ### Resultado do sorteio
 Infelizmente, apesar do sorteio, apenas as seguintes integrantes participaram do projeto:
 
-[<img src="https://github.com/quasiEvil.png" width="60px;"/><br /><sub><a href="https://github.com/quasiEvil">Ana Paula Badaró</a></sub>](https://github.com/quasiEvil) | [<img src="https://github.com/Jessicabs06.png" width="60px;"/><br /><sub><a href="https://github.com/Jessicabs06">Jessica Souza</a></sub>](https://github.com/Jessicabs06) | [<img src="https://github.com/jutdelu.png" width="60px;"/><br /><sub><a href="https://github.com/jutdelu">Juliana Torres Delunardo</a></sub>](https://github.com/jutdelu) | [<img src="https://github.com/Marcia-Moreira.png" width="60px;"/><br /><sub><a href="https://github.com/Marcia-Moreira">Marcia Moreira</a></sub>](https://github.com/Marcia-Moreira) |  [<img src="https://github.com/NuLima1.png" width="60px;"/><br /><sub><a href="https://github.com/NuLima1">Núbia Santos Lima</a></sub>](https://github.com/NuLima1)
+[<img src="https://github.com/apbadaro.png" width="60px;"/><br /><sub><a href="https://github.com/apbadaro">Ana Paula Badaró</a></sub>](https://github.com/apbadaro) | [<img src="https://github.com/Jessicabs06.png" width="60px;"/><br /><sub><a href="https://github.com/Jessicabs06">Jessica Souza</a></sub>](https://github.com/Jessicabs06) | [<img src="https://github.com/jutdelu.png" width="60px;"/><br /><sub><a href="https://github.com/jutdelu">Juliana Torres Delunardo</a></sub>](https://github.com/jutdelu) | [<img src="https://github.com/Marcia-Moreira.png" width="60px;"/><br /><sub><a href="https://github.com/Marcia-Moreira">Marcia Moreira</a></sub>](https://github.com/Marcia-Moreira) |  [<img src="https://github.com/NuLima1.png" width="60px;"/><br /><sub><a href="https://github.com/NuLima1">Núbia Santos Lima</a></sub>](https://github.com/NuLima1)
 |---|---|---|---|---|
 
 ## Tecnologias Utilizadas:
